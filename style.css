@@ -1,0 +1,57 @@
+body {
+        background-color: rgb(124, 7, 7);
+
+}
+.header {
+        width: 100%;
+        float: left;
+        background-color: #070707;
+        position: relative;
+}
+ .header-1 {
+        width: 18%;
+        float: left;
+        background-color: #070707;
+        position: relative;
+ }
+      
+.header-1 {
+        padding-top: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+}
+
+.main-1{
+        width: 22%;
+        float: left;
+        background-color: rgb(87, 3, 3);
+        position: relative;
+        font-size: 18px;
+}
+      
+.main-3{
+        width: 18%;
+        float: right;
+        background-color: rgb(243, 221, 221);
+        position: relative;
+        font-size: 18px;
+}
+
+footer {
+        width: 100%;
+        background-color: rgb(219, 169, 77);
+}
+      
+#title{
+        background-color: rgb(155, 148, 136);    
+}
+
+hr {
+        border: none; 
+        background-color: rgb(75, 69, 69); 
+        height: 2px; 
+
+}
+
+      
