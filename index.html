@@ -2,103 +2,76 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My hard website</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homework_6_2</title>
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.png" /> <!--не получилось отобразить фавикон-->
 
 </head>
 
 <body>
-    <header><br>
-        <center><img src="title.gif" width="100%" alt="title"></center>
-        <br>
+  <div class="container">
+    <header>
+      <table border="2" class="table-1">
+        <tr>
+          <td>
+            <h1 align="center">
+              <font color="violet" face="Arial">CSS Dinner Shopping List</font>
+            </h1>
+            <h3 align="center">
+              <font color="violet" face="Arial">Let's go to the mall!</font>
+            </h3>
+          </td>
+        </tr>
+
     </header>
-
-    <div class="header">
-
-        <div class="header-1">
-            <img src="img00.jpg" width="100%" alt="title">
-            <br>
-            <center style="color: white">Home</center>
-        </div>
-
-        <div class="header-1">
-            <img src="img01.jpg" width="100%" alt="title">
-            <br>
-            <center style="color: white">Home</center>
-        </div>
-        <div class="header-1">
-            <img src="img02.jpg" width="100%" alt="title">
-            <br>
-            <center style="color: white">Services</center>
-        </div>
-
-        <div class="header-1">
-            <img src="img03.jpg" width="100%" alt="title">
-            <br>
-            <center style="color: white">Contact</center>
-        </div>
-    </div>
-
     <main>
-        <div class="main-1">
-            <br><a href="https://ru.lipsum.com/" style="color:orange">Lorem ipsum</a>
-            <p>
-                <br><a href="https://ru.lipsum.com/" style="color:orange">Sapiente, acusamus</a>
-            </p>
-            <br><a href="https://ru.lipsum.com/" style="color:orange">Ipsum, qui?</a>
-            <p>
-                <br><a href="https://ru.lipsum.com/" style="color:orange">Paesentum, excepturi?</a>
-            </p>
-            <br><a href="https://ru.lipsum.com/" style="color:orange">Distinque, sasipit</a>
-            <br><br><br><br>
-        </div>
+      <form action="mailto:anna.join.kr@gmail.com" method="POST" enctype:"text/plain">
 
 
-        <div class="main-3">
-            <center>
-                <p id="title">Title</p>
-            </center>
-            <hr align="center" width="50%">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-            <hr align="center" width="50%">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-            <hr align="center" width="50%">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        </div>
+        <table border="1" class="table-2">
+          <tr>
+            <td><input type="checkbox" name=shopping_list id="item_1" value="A lot of pickles">
+              <label for="item_1" class="item">A lot of pickles <span id="i_1"></span></label>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name=shopping_list id="item_2" value="apples">
+              <label for="item_2" class="item">10 apples <span id="i_2"></span></label>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name=shopping_list id="item_3" value="oranges">
+              <label for="item_4" class="item">20 oranges <span id="i_3"></span></label>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name=shopping_list id="item_4" value="plates">
+              <label for="item_1" class="item">13 plates <span id="i_4"></span></label>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name=shopping_list id="item_5" value="bentos">
+              <label for="item_2" class="item">15 bentos</label>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name=shopping_list id="item_6" value="bottle">
+              <label for="item_4" class="item">4 bottle of Sake ^_^ <span id="i_6"></span> </label>
+            </td>
+          </tr>
+        </table>
+
+
+        <input type="submit" value="Bon Apetit :)" class="button">
+      </form>
+
 
     </main>
-
-
-
-    <P>.</P>
-    <p style="color:white"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur.
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-    <br>
-    <p style="color:white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat.
-    </p>
-    <br>
-    <p style="color:white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore
-        magna aliqua.</p>
-    <br><br><br>
-
-
-    <footer>
-        <center>
-            <h4>&#169 Copyright</h4>
-        </center>
-    </footer>
+  </div>
 </body>
 
 </html>

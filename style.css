@@ -1,57 +1,86 @@
-body {
-        background-color: rgb(124, 7, 7);
+.table-2 { 
+        width: 70%; /* Ширина таблицы */
+        border-spacing: 0; /* Расстояние между ячейками */
+        margin: auto; /* Выравниваем таблицу по центру окна  */
+        color: white; /* Цвет текста */
+       }
+       .table-2 tr:nth-child(2n) {
+        background: rgb(99, 73, 90); /* Цвет фона */
+       } 
+       .table-2 tr:nth-child(odd) {
+        background: rgb(114, 88, 106); /* Цвет фона */
+       }
 
-}
-.header {
-        width: 100%;
-        float: left;
-        background-color: #070707;
-        position: relative;
-}
- .header-1 {
-        width: 18%;
-        float: left;
-        background-color: #070707;
-        position: relative;
- }
-      
-.header-1 {
-        padding-top: 40px;
-        padding-right: 40px;
-        padding-bottom: 10px;
-        padding-left: 40px;
-}
+       .table-2 tr:hover {
+        background: #573543; 
+        color: rgb(68, 20, 20); /* Цвет текста при наведении */
+       }
+        input[type=checkbox]:checked + label.item{
+            text-decoration: line-through;
+          }
+    *{transition: all .1s ease-in;}
 
-.main-1{
-        width: 22%;
-        float: left;
-        background-color: rgb(87, 3, 3);
-        position: relative;
-        font-size: 18px;
-}
-      
-.main-3{
-        width: 18%;
-        float: right;
-        background-color: rgb(243, 221, 221);
-        position: relative;
-        font-size: 18px;
-}
+    .container{
+            background-color: rgb(61, 57, 57);
+            height: 700px;
+            width: 100%;
+            display:block;
+            line-height: 30px;
+            float: left;
+            position: relative;
+          }
 
-footer {
-        width: 100%;
-        background-color: rgb(219, 169, 77);
-}
-      
-#title{
-        background-color: rgb(155, 148, 136);    
-}
+    .table-1 { 
+            width: 100%; /* Ширина таблицы */
+            border-spacing: 0; /* Расстояние между ячейками */
+            background: rgb(94, 81, 81); /* Цвет фона */
+           margin-bottom: 70px; 
+    
+           }     
 
-hr {
-        border: none; 
-        background-color: rgb(75, 69, 69); 
-        height: 2px; 
+     #i_1::after {
+   content: "(for the next lessons about CSS)";
+    font-size: 12px; 
+    color: #441739; 
+    line-height: 0; 
+   }
 
-}
+   #i_2::after {
+   content:"(for more CSS manipulations)";
+   font-size: 12px; 
+    color: #441739; 
+    line-height: 0; 
+   }
+   #i_3::after {
+    content:"(because they are awersome)";
+    font-size: 12px; 
+     color: #441739; 
+     line-height: 0; 
+    }
+    #i_4::after {
+    content:"(hm... they always dissapear)";
+    font-size: 12px; 
+    color: #441739; 
+    line-height: 0; 
+}            }
+            
+    #i_6::after {
+    content:"(for my friends)";
+    font-size: 12px; 
+    color: #441739; 
+    line-height: 0; 
+    }
 
-      
+    .button{
+            color: rgb(104, 10, 57); /* цвет текста */
+            background: rgb(133, 105, 101); /* фон кнопки */
+            padding: 17px; /* отступ от текста */ 
+            width: 70%; /* Ширина таблицы */
+            margin-top: 20px; 
+            position: relative;
+            left: 50%;
+            transform: translate(-50%, 0);
+    }
+    
+            hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+            
