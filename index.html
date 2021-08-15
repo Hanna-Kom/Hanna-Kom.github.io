@@ -5,72 +5,57 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Homework_6_2</title>
+  <title>Homework_9_1</title>
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/fontawesome.css">
+  <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/regular.css">
+  <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/brands.css">
+  <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/regular.min.css">
+  <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.css">
+  <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.min.css">
 
-  <link rel="shortcut icon" type="image/png" href="/favicon.png" /> <!--не получилось отобразить фавикон-->
+
+
 
 </head>
 
 <body>
-  <div class="container">
-    <header>
-      <table border="2" class="table-1">
-        <tr>
-          <td>
-            <h1 align="center">
-              <font color="violet" face="Arial">CSS Dinner Shopping List</font>
-            </h1>
-            <h3 align="center">
-              <font color="violet" face="Arial">Let's go to the mall!</font>
-            </h3>
-          </td>
-        </tr>
+  <div class="flex-container">
+    <div class="flex-card">
+      <h1>$ 2</h1>
+      <div class="image-container flex-center">
+        <i class="fas fa-mug-hot" style="color:rgb(175, 159, 10)"></i>
+      </div>
+      <div class="title flex-center">Bronze</div>
+      <p>
+        any cup of coffee 
+      </p>
+      <div>untill $3</div>
+    </div>
 
-    </header>
-    <main>
-      <form action="mailto:anna.join.kr@gmail.com" method="POST" enctype:"text/plain">
+      <div class="flex-card" style="width: 340px; height: 460px">
+        <h1>$ 3</h1>
+        <div class="image-container flex-center">
+          <i class="fas fa-mug-hot" style="color:rgb(185, 197, 12)"></i>
+        </div>
+        <div class="title flex-center">Gold</div>
+        <p>
+          any cup of coffee
+        </p>
+        <div>untill $5</div>
+      </div>
 
-
-        <table border="1" class="table-2">
-          <tr>
-            <td><input type="checkbox" name=shopping_list id="item_1" value="A lot of pickles">
-              <label for="item_1" class="item">A lot of pickles <span id="i_1"></span></label>
-            </td>
-          </tr>
-          <tr>
-            <td><input type="checkbox" name=shopping_list id="item_2" value="apples">
-              <label for="item_2" class="item">10 apples <span id="i_2"></span></label>
-            </td>
-          </tr>
-          <tr>
-            <td><input type="checkbox" name=shopping_list id="item_3" value="oranges">
-              <label for="item_4" class="item">20 oranges <span id="i_3"></span></label>
-            </td>
-          </tr>
-          <tr>
-            <td><input type="checkbox" name=shopping_list id="item_4" value="plates">
-              <label for="item_1" class="item">13 plates <span id="i_4"></span></label>
-            </td>
-          </tr>
-          <tr>
-            <td><input type="checkbox" name=shopping_list id="item_5" value="bentos">
-              <label for="item_2" class="item">15 bentos</label>
-            </td>
-          </tr>
-          <tr>
-            <td><input type="checkbox" name=shopping_list id="item_6" value="bottle">
-              <label for="item_4" class="item">4 bottle of Sake ^_^ <span id="i_6"></span> </label>
-            </td>
-          </tr>
-        </table>
-
-
-        <input type="submit" value="Bon Apetit :)" class="button">
-      </form>
-
-
-    </main>
+        <div class="flex-card">
+          <h1>$ 2.5</h1>
+          <div class="image-container flex-center">
+            <i class="fas fa-mug-hot" style="color:rgb(128, 131, 99)"></i>
+          </div>
+          <div class="title flex-center" >Silver</div>
+          <p>
+            any cup of coffee 
+          </p>
+          <div>untill $4</div>
+        </div>
   </div>
 </body>
 
