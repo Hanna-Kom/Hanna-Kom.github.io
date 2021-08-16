@@ -1,59 +1,66 @@
-body{
- background-color: rgb(226, 226, 75);
- padding: 120px;
-}
-
-.flex-container{
-display: flex;
-justify-content: space-between;
-align-items: center;
-flex-direction: row;
-flex-wrap: wrap;
-width: 1000px;
-height: 500px;
-}
-
-.flex-card {
-  width: 300px;
-  height: 400px;
-  background-color: white;
-  border-radius: 5px;
-  padding: 60px, 0;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between; /*растянуть контент*/
-  }
-
-.flex-card h1 {
-        color:green;
-}
-
-.flex-center {
+.flex-container-1{
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        justify-content: center;
+       /* align-content: space-between;*/
+        flex-direction: row;
+       flex-wrap: wrap;
+        width: 70%;
+        height: 100px;
+        padding-left: 15%;
+        margin-bottom: 310px;
+       }
+
+.flex-card-1 {
+       width: 300px;
+       height: 400px;
+       background-color: rgb(241, 243, 151);
+       padding: 60px, 0;
+       text-align: left;
+       /*display: flex;*/
+       flex-direction: column;
+       flex-wrap: wrap;
+       justify-content: space-between; 
+       font-family: 'STIX Two Text', serif;
 }
 
-.flex-card .title {
-        flex-grow: 1;
-        font-weight: 800; /*жирный шрифт*/
+.flex-container-2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       /* align-content: space-between;*/
+        flex-direction: row;
+       flex-wrap: wrap;
+        width: 70%;
+        height: 100px;
+        padding-left: 15%;
+       }
+
+.flex-card-2 {
+       width: 32.5%;
+       height: 400px;
+       background-color:rgb(241, 243, 151);
+       padding: 60px, 0;
+       text-align: left;
+       /*display: flex;*/
+       flex-direction: column;
+       flex-wrap: wrap;
+       justify-content: space-between; 
+       font-family: 'STIX Two Text', serif;
+}
+  
+
+
+.positioned{
+        position: absolute;
 }
 
-.flex-card .image-container {
-        flex-grow: 1;
-}
+/*.image-1 {
+        background: url(./stil-provanse.jpg.jpg) no-repeat center center;
+        background-size: cover;
+        /*overflow: hidden;
+        width: 100%;
+        height: 100%;
+      }*/
+     
 
-.flex-card .image-container i {
-        font-size: 4rem;
-}
-
-.title {
-        font-family: Verdana, Arial, Helvetica, sans-serif; 
-        font-size: 20px;   
-}
-
-div {margin-bottom: 40px;
-
-}
