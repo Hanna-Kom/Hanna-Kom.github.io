@@ -1,66 +1,150 @@
-.flex-container-1{
+
+.flex-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
-       /* align-content: space-between;*/
         flex-direction: row;
-       flex-wrap: wrap;
+        flex-wrap: wrap;
         width: 70%;
         height: 100px;
         padding-left: 15%;
-        margin-bottom: 310px;
+        margin-top: 70px;
        }
 
-.flex-card-1 {
-       width: 300px;
-       height: 400px;
-       background-color: rgb(241, 243, 151);
+.flex-card {
+       width: 20%;
+       height: 250px;
        padding: 60px, 0;
        text-align: left;
-       /*display: flex;*/
        flex-direction: column;
        flex-wrap: wrap;
        justify-content: space-between; 
        font-family: 'STIX Two Text', serif;
-}
-
-.flex-container-2 {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-       /* align-content: space-between;*/
-        flex-direction: row;
-       flex-wrap: wrap;
-        width: 70%;
-        height: 100px;
-        padding-left: 15%;
-       }
-
-.flex-card-2 {
-       width: 32.5%;
-       height: 400px;
-       background-color:rgb(241, 243, 151);
-       padding: 60px, 0;
-       text-align: left;
-       /*display: flex;*/
-       flex-direction: column;
-       flex-wrap: wrap;
-       justify-content: space-between; 
-       font-family: 'STIX Two Text', serif;
+       position: relative; 
 }
   
-
-
-.positioned{
-        position: absolute;
+h3{
+        margin-left: 200px; 
+        margin-right: 200px;   
 }
 
-/*.image-1 {
-        background: url(./stil-provanse.jpg.jpg) no-repeat center center;
-        background-size: cover;
-        /*overflow: hidden;
-        width: 100%;
-        height: 100%;
-      }*/
+.flex-card:before {
+        content: '';
+        position: absolute; 
+        width: 178px; /*в каких единицах сделать, чтобы верстка не плыла и было одинаково с картинкой*/
+        height: 178px;
+        background: rgba(20, 218, 201, 0.6);
+        z-index: -1;
+      }
      
+.social {
+        position: absolute;
+        font-size: 20px;
+        top: 50%;
+        left: 17%;
+        opacity: 0;
+      }
+.social a {
+        cursor: pointer;
+        background: rgba(121, 98, 98, 0.3);
+        padding: 6px;
+        color: #0e0818;
+        border: 1px solid #000;
+      }
+
+.flex-card:hover .image {
+        opacity: 0;
+      }
+
+.flex-card:hover.flex-card:before {
+        opacity: 1;
+        z-index: 1;
+      }
+
+.flex-card:hover .social {
+        opacity: 1;
+        z-index: 2;
+      }
+
+     
+
+
+/*.team-image {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        border: 2px solid #30d5c8;
+        opacity: 1;
+      }
+
+.flex-card:before {
+        content: '';
+        position: absolute;
+        width: 290px;
+        height: 435px;
+        background: rgba(48, 213, 200, 0.6);
+        z-index: -1000;
+      }
+      .flex-card:hover .team-image {
+        opacity: 0;
+      }
+      .flex-card:hover.flex-card:before {
+        z-index: 10;
+      }
+      .flex-card .social {
+        position: absolute;
+        bottom: 53%;
+        left: 25%;
+        font-size: 25px;
+        opacity: 0;
+      }
+      .flex-card .social a {
+        cursor: pointer;
+        padding: 0 5px;
+        color: #262626;
+        border: 1px solid #000;
+        background: rgba(0, 0, 0, 0.3);
+      }
+      .flex-card .social a:nth-child(1) {
+        padding: 0 8px;
+      }
+      
+      .flex-card:hover .social {
+        opacity: 1;
+        z-index: 1000;
+      }
+
+/*.image-1:hover {
+        transform: scale(0);
+        color: skyblue;
+        background: url(20645219_1582991428423093_839903663617563467_o.jpg); /* Путь к файлу с исходным рисунком  */
+   /* display: block;
+       }
+
+       /*.image-1{
+
+        position:relative;
+      
+        margin:0 auto;/* устанваливаем блок div по центру страницы*/
+                 
+      
+      /*}
+      
+     /* .image-1 img {
+      
+        position:absolute; /* абсолютное позиционирование*/
+      
+      /*  left: 0; /* выравниваем картинки по левому верхнему углу div-а*/
+      
+       /* top: 0; /* выравниваем картинки по левому верхнему углу div-а */  
+      
+      }
+
+     /*  Lp
+       Блоки з фоткам
+       Блоки з фейсбуком
+       Трансфор скайл 0
+       Ховер 1 (?)*/
+       
+
 
