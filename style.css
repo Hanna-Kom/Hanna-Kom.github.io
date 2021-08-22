@@ -1,66 +1,99 @@
-.flex-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 70%;
-        height: 100px;
-        padding-left: 15%;
-        margin-top: 70px;
-       }
+body{
+    padding: 50px;
+    background-image: url(16252.jpg);
+    background-size: 100%;
+}
 
-.flex-card {
-       width: 20%;
-       height: 250px;
-       padding: 60px, 0;
-       text-align: left;
-       flex-direction: column;
-       flex-wrap: wrap;
-       justify-content: space-between; 
-       font-family: 'STIX Two Text', serif;
-       position: relative; 
+h1{
+    color:rgb(5, 20, 36);
+    text-align: center;
 }
 
 h3{
-        margin-left: 200px; 
-        margin-right: 200px;   
+    color:rgb(5, 20, 36);
+    text-align: center;
 }
 
-.flex-card:before {
-        content: '';
-        position: absolute; 
-        width: 178px; /*в каких единицах сделать, чтобы верстка не плыла и было одинаково с картинкой*/
-        height: 178px;
-        background: rgba(20, 218, 201, 0.6);
-        z-index: -1;
-      }
+.phone_us:focus{
+    background-color:rgb(114, 155, 182);
+    color:rgb(242, 246, 248);
+    border-radius:0;
+    border: 0;
+    box-shadow: none;
+    border-left: 2px solid transparent;
+}
 
-.social {
-        position: absolute;
-        font-size: 20px;
-        top: 50%;
-        left: 17%;
-        opacity: 0;
-      }
-.social a {
-        cursor: pointer;
-        background: rgba(121, 98, 98, 0.3);
-        padding: 6px;
-        color: #0e0818;
-        border: 1px solid #000;
-      }
+.form-control:focus{
+    background-color:rgb(114, 155, 182);
+    color:rgb(242, 246, 248);
+    border-radius:0;
+    border: 0;
+    box-shadow: none;
+    border-left: 2px solid transparent;
+}
 
-.flex-card:hover .image {
-        opacity: 0;
-      }
+.form-control, .phone_us::placeholder {
+color: rgb(241, 239, 245);
+}
 
-.flex-card:hover.flex-card:before {
-        opacity: 1;
-        z-index: 1;
-      }
+.form-control::placeholder {
+    color: rgb(241, 239, 245);
+}
 
-.flex-card:hover .social {
-        opacity: 1;
-        z-index: 2;
-      }
+.phone_us:focus {
+border-left-color: rgb(23, 8, 75);
+}
+
+.form-control:focus {
+    border-left-color: rgb(23, 8, 75);
+}
+
+.form-control{
+        background-color:rgb(64, 164, 231);
+        color:rgb(237, 240, 243);
+        padding: 10px;
+}
+.phone_us{
+        background-color:rgb(64, 164, 231);
+        color:rgb(237, 240, 243);
+        padding: 10px;
+}
+
+input[type="text"] {
+        font-size: 16px;
+        height: 16px;
+        width: 400px;
+}
+
+.container{
+    margin-top: 40px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    opacity: 0.7;
+}
+
+.button {
+    background-color: rgb(43, 132, 235); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.button:focus{
+    background-color:rgb(114, 155, 182);
+    color:rgb(242, 246, 248);
+    border: radius 0;
+    border: 0;
+    box-shadow: none;
+    border-left: 2px solid transparent;
+}
