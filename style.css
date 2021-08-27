@@ -3,9 +3,9 @@
     background-image: url(./homework13/pexels-photo-4064840.jpeg);
     background-size: 100%;
     background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
   
   }
 .text{
@@ -58,13 +58,13 @@ fieldset{
     background-image: url(./homework13/2.jpeg);
     background-size: 100%;
     background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 60vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 }
 .flex-card-4{
     height: 110vh;
@@ -106,9 +106,9 @@ fieldset{
     background-image: url(./homework13/0f4c07d5a512c518c696aa4ce4012f65-l-21582036345x0lgoutr20kezuo2t934kelr0fx5kftu37udkih8gfgfdi6wdcenonfja1uizncmwzjoowacb9rgt4xnajpq9a9l9orlb9cush8z.jpg);
     background-size: 100%;
     background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
   }
   
   .box-2 {
@@ -117,10 +117,10 @@ fieldset{
     background-image: url(./homework13/depositphotos_81536454-stock-photo-laptop-notebook-and-coffee-cup.jpg);
     background-size: 100%;
     background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 30vh;
-  color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    color:white;
   }
   .box-3 {
     flex-grow: 1;
@@ -128,9 +128,9 @@ fieldset{
     background-image: url(./homework13/tablet-sales-decline-for-first-time-700x466.jpg);
     background-size: 100%;
     background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
   
   }
   
@@ -140,9 +140,9 @@ fieldset{
     background-image: url(./homework13/depositphotos_274950986-stock-photo-cropped-view-of-woman-holding.jpg);
     background-size: 100%;
     background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
   }
   
   .box-5 {
@@ -151,10 +151,10 @@ fieldset{
     background-image: url(./homework13/shutterstock_671883610.jpg);
     background-size: 100%;
     background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 30vh;
-  color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    color:white;
   }
   .box-6 {
     flex-grow: 1;
@@ -162,9 +162,9 @@ fieldset{
     background-image: url(./homework13/shutterstock_113615170.jpg);
     background-size: 100%;
     background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 30vh;
   }
 
 
