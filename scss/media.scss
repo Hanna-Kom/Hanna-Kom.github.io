@@ -1,0 +1,39 @@
+
+@media screen and (max-width: 888px){
+    
+        .flex-card-4{
+        margin-top: 20px;
+        margin-bottom: 1000px;
+      }
+    
+}
+@media screen and (max-width: 888px){
+    .background{
+            background-image: url(./homework13/1.jpg);
+            background-size: 100%;
+            background-position: bottom;
+          background-repeat: no-repeat;
+          background-size: cover;
+    }
+}
+
+/*@media screen and (min-width: 600px) and (max-width: 800px){
+
+    
+}
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+/*@media (min-width: $screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+/*@media (min-width: $screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+/*@media (min-width: $screen-lg-min) { ... }
+}*/
